@@ -1,7 +1,7 @@
 import wikipedia
 from aiogram import Bot,Dispatcher,executor,types
 wikipedia.set_lang('uz')
-API_TOKEN = '5441949759:AAFxEkRBUdTF4B1peuG-v6lUETPSe-1VTqU'
+API_TOKEN = '5434452297:AAFNf8RCh-PN4blWD9oESbd6CltFKRSOi-Y'
 bot = Bot(token=API_TOKEN)
 dp = Dispatcher(bot)
 @dp.message_handler(commands='start')
